@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AllData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <records>
+    <Record>
+      <name>Щелев Виктор Петрович</name>
+      <recordtype>Доход от вклада</recordtype>
+      <amountofmoney>15000</amountofmoney>
+      <deduction>false</deduction>
+      <date>2022-12-30T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Мелехов Антон Витальевич</name>
+      <recordtype>Доход от продажи стекловаты</recordtype>
+      <amountofmoney>30000</amountofmoney>
+      <deduction>false</deduction>
+      <date>2023-04-01T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Максимов Григорий Спасокукоцкий</name>
+      <recordtype>Доход от продажи ювелирных украшений</recordtype>
+      <amountofmoney>40000</amountofmoney>
+      <deduction>false</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Устюжанин Артем Антонович</name>
+      <recordtype>Налоговый вычет</recordtype>
+      <amountofmoney>15900</amountofmoney>
+      <deduction>true</deduction>
+      <date>2023-01-01T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Узунов Степан Иванович</name>
+      <recordtype>Налоговый вычет</recordtype>
+      <amountofmoney>17800</amountofmoney>
+      <deduction>true</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Арутюнян Артур Витальевич</name>
+      <recordtype>Доход от ставок</recordtype>
+      <amountofmoney>18000</amountofmoney>
+      <deduction>false</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Арутюнян Артур Витальевич</name>
+      <recordtype>Доход от поставки лекарств</recordtype>
+      <amountofmoney>23000</amountofmoney>
+      <deduction>false</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Мелехов Антон Витальевич</name>
+      <recordtype>Вычет из-за не состоявшейся сделки</recordtype>
+      <amountofmoney>140000</amountofmoney>
+      <deduction>true</deduction>
+      <date>2023-04-01T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Данилова Виктория Валерьевна</name>
+      <recordtype>Вычет из Гос. бюджета</recordtype>
+      <amountofmoney>40500</amountofmoney>
+      <deduction>true</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Узунов Степан Иванович</name>
+      <recordtype>Доход от поставки сигарет</recordtype>
+      <amountofmoney>49000</amountofmoney>
+      <deduction>false</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Узунов Степан Иванович</name>
+      <recordtype>Вычет из бухгалтерии</recordtype>
+      <amountofmoney>34500</amountofmoney>
+      <deduction>true</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Устюжанин Артем Антонович</name>
+      <recordtype>Вычет из-за несостоявшейся сделки</recordtype>
+      <amountofmoney>32000</amountofmoney>
+      <deduction>true</deduction>
+      <date>2023-01-01T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Перевезенцев Матвей Григорьевич</name>
+      <recordtype>Доход от поставок новогодних игрушек</recordtype>
+      <amountofmoney>23000</amountofmoney>
+      <deduction>false</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+  </records>
+  <recordTypes>
+    <string>Налоговый вычет</string>
+    <string>Доход от вклада</string>
+    <string>Доход от продажи стекловаты</string>
+    <string>Доход от продажи ювелирных украшений</string>
+    <string>Доход от ставок</string>
+    <string>Доход от поставки лекарств</string>
+    <string>Вычет из-за не состоявшейся сделки</string>
+    <string>Вычет из Гос. бюджета</string>
+    <string>Доход от поставки сигарет</string>
+    <string>Вычет из бухгалтерии</string>
+    <string>Доход от поставок новогодних игрушек</string>
+    <string>Вычет из-за несостоявшейся сделки</string>
+  </recordTypes>
+  <dates>
+    <dateTime>2022-12-30T00:00:00</dateTime>
+    <dateTime>2023-04-01T00:00:00</dateTime>
+    <dateTime>2022-12-05T00:00:00</dateTime>
+    <dateTime>2023-01-01T00:00:00</dateTime>
+  </dates>
+</AllData>

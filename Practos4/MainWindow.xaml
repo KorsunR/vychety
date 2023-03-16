@@ -1,0 +1,27 @@
+﻿<Window x:Class="Practos4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practos4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Loaded="Grid_Loaded" Margin="0,0,-200,0">
+        <DataGrid x:Name="Razer" AutoGenerateColumns="False"  Margin="0,0,431,0" RenderTransformOrigin="0.517,0.495" ColumnWidth="100" SelectionChanged="Razer_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding name}" MaxWidth="80" MinWidth="80" Header="Имя"/>
+                <DataGridComboBoxColumn x:Name="DGCbColumn" SelectedItemBinding="{Binding recordtype}" Header="Тип записи"  MaxWidth="120" MinWidth="120"/>
+                <DataGridTextColumn Binding="{Binding amountofmoney}" MaxWidth="120" MinWidth="120" Header="Количество денег"/>
+                <DataGridCheckBoxColumn Binding="{Binding deduction}" Visibility="Visible" Width="100" CanUserResize="True" MaxWidth="50" MinWidth="50" Header="Вычет"/>
+                <DataGridTextColumn Binding="{Binding date, StringFormat=\{0:dd.MM.yyyy\}}" Header="Дата записи" MaxWidth="120" MinWidth="120"/>
+            </DataGrid.Columns>
+            <DataGrid.CellStyle>
+                <Style/>
+            </DataGrid.CellStyle>
+            <ComboBox Width="120" Height="120" MaxDropDownHeight="120"/>
+        </DataGrid>
+        <ComboBox x:Name="RecordDatePicker" ItemStringFormat="dd.MM.yyyy" HorizontalAlignment="Left" Margin="609,28,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="RecordDatePicker_SelectionChanged"/>
+        <Button Content="Сбросить" HorizontalAlignment="Left" Margin="637,55,0,0" VerticalAlignment="Top" Height="25" Width="64" Click="Button_Click"/>
+
+    </Grid>
+</Window>
